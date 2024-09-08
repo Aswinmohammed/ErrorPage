@@ -66,5 +66,31 @@ footer{
 
 }
 
+@media (min-width:350px) and (max-width:768px) {
+    header h2 {
+        margin-left: 40px;
+    }
 
+    .image-container div{
+        margin-top: 10px;
+    }
 
+    .image-container{
+        display: inline-block;
+        width: 80%;
+    }
+
+      .text-container{
+        width: 100%; 
+        margin-top: 20px; 
+         
+    }
+
+    .text-container h1{
+        font-size: 25px;
+}
+
+    .text-container a{
+        margin-left: 10px;
+    }
+}
